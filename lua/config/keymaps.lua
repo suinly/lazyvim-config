@@ -3,5 +3,5 @@
 -- Add any additional keymaps here
 
 vim.keymap.set({ "n", "t" }, "<c-_>", function()
-  Snacks.terminal(nil, { cwd = LazyVim.root(), win = { height = 0.2 } })
+  Snacks.terminal(nil, { cwd = vim.uv.cwd(), win = { height = 0.2 } })
 end)
