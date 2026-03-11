@@ -8,7 +8,7 @@ return {
     },
     cmd = "Neogit",
     keys = {
-      { "<leader>gG", "<cmd>Neogit kind=floating<cr>", desc = "Neogit" },
+      { "<leader>gG", "<cmd>Neogit<cr>", desc = "Neogit" },
     },
   },
 }
