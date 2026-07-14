@@ -1,6 +1,7 @@
 return {
   {
     "mrjones2014/smart-splits.nvim",
+    cond = vim.env.HERDR_ENV ~= "1",
     lazy = false,
     keys = {
       {
